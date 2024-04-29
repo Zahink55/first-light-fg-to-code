@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  background: #111111;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: 0.5s all ease;
+}
+
+button:hover{
+  background: #FC7A1D;
+}
+
+i{
+  cursor: pointer;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  background: #FFF;
+  gap: 0; 
+}
+
+header{
+  position: relative;
+  width: 100%;
+  height: 190px;
+  background: #FFF;
+
+}
+
+nav{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 20px;
+}
+
+header nav h1::selection{
+  background: #FC7A1D;
+  color: #fff;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: 10px;
+  
+}
+
+header nav h1{
+  display: flex;
+
+}
+
+.logo{
+  width: 160px;
+  height: 110px;
+  background: #FC7A1D;
+  border-radius: 180px 180px 25px 25px;
+  margin: 0 60px;
+}
+
+
+
+
+
+
+.hero{
+  position: relative;
+  height: 520px;
+  width: 100%;
+  background: url(img/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero h3{
+  position: absolute;
+  font-size: 36px;
+  color: #FFF;
+  letter-spacing: 2px;
+  bottom: 50px;
+  left: 100px;
+}
+
+.hero h5{
+  position: absolute;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  letter-spacing: 2px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  bottom: 40px;
+  right: 30px;
+  transition: 0.5s all ease;
+  border: 2px solid #fff;
+}
+
+.hero h5:hover{
+  background: #FC7A1D;
+}
+
+
+
+.hero h5 i{
+  font-size:20px;
+  margin-left:5px ;
+}
+
+
+
+
+.brand{
+  position: relative;
+  width: 100%;
+  height: 110px;
+  background:#FC7A1D;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.brand .brands img{
+  width: 150px;
+  user-select: none;
+}
+
+
+
+.brands{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+margin: 20px 100px;
+}
+
+.brand-logo1{
+  margin:10px 40px;
+}
+
+.brand-logo2{
+  margin: -11px 40px;
+}
+
+.brand-logo3{
+  margin: 22px 40px;
+}
+
+.brand-logo4{
+  margin: 10px 40px;
+}
+
+.brand-logo5{
+  margin: 13px 40px;
+}
+
+
+
+/* productlist1 start  */
+.productlist1{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.pro1left{
+  width: 50%;
+  height: 100%;
+  background:#fff;
+}
+
+.shirt{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pro1left h2{
+  font-size: 28px;
+  font-weight: 400;
+  margin:30px 0;
+}
+
+.pro1left p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.product1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.product1 img{
+  width: 350px;
+}
+
+.product1 i{
+  font-size: 40px;
+}
+
+
+.pro1right{
+  position: relative;
+  top: -4px;
+  width: 50%;
+  height: 100%;
+  background: url(img/woman.png) no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.pro1right button{
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+}
+
+
+
+
+/* productlist1 end  */
+
+
+/* productlist2 start  */
+.productlist2{
+  width: 100%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pro2left{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  padding: 150px 0;
+}
+
+.pro2right{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+
+}
+
+.product2{
+  position: absolute;
+  width: 550px;
+  height: 630px;
+  background-color: #E7E7E7;
+  border-radius: 5px;
+  top: 10%;
+  right: 2%;
+  overflow: hidden;
+}
+
+.product2 img{
+  width: 590px;
+  object-fit: cover;
+}
+
+.product2 button{
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+}
+
+.text{
+  position: absolute;
+  width: 550px;
+  height: 630px;
+  background: #FC7A1D;
+  border-radius: 5px;
+  top: 10%;
+  left: 2%;
+}
+
+.text h2{
+  position: absolute;
+  font-size: 38px;
+  font-weight: 600;
+  top: 50px;
+  left:30px;
+}
+
+.text p{
+  position: absolute;
+  font-size: 18px;
+  font-weight: 700;
+  bottom: 50px;
+  left:30px;
+}
+
+
+/* productlist2 end  */
+
+
+
+
+
